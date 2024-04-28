@@ -56,7 +56,7 @@ public class Encrypt {
                 System.out.print(encryptedArray[i] + "\n");
             } else {
                 // Character not found in array, keep it unchanged
-                System.out.print(reversedArray[i] + " becomes " );
+                System.out.print(reversedArray[i] + " stays as " );
                 encryptedArray[i] = currentChar;
                 System.out.print(encryptedArray[i] + "\n");
             }
